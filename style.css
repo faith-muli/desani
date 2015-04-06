@@ -1,17 +1,22 @@
 
+.container{
+	margin: 0 auto;
 
+}
 #cont1{
-	border:2px solid black;
+	/*border:2px solid black;*/
 	background-size: cover;
 	text-align: center;
 	height: 500px;
 	background-image:url("/home/faith/Desktop/website/desanifinal/assets/backgrounds/h_img.jpg");
 }
 #cont2{
-	border:2px solid black;
+	/*border:2px solid black;*/
 	text-align: center;
 	background-color: #F8F8FF;
 	vertical-align: center;
+	background-size: cover;
+	height: 250px;
 
 }
 #cont2 h2{
@@ -22,7 +27,8 @@
 	color:black;
 }
 #cont3{
-	border:2px solid black;
+	/*border:2px solid black;*/
+	height: 250px;
 	background-size: cover;
 	background-image:url("/home/faith/Desktop/website/desanifinal/assets/backgrounds/s_image.jpg");	
 }
@@ -39,38 +45,60 @@ color: #FFFFFF
 	color: #FFFFFF
 }
 #cont4{
-	border:2px solid black;
+	/*border:2px solid black;*/
 	text-align: center;
 	vertical-align: center;
+	height: 300px;
+
+	#cont5{
+		height: 300px;
+	}
 	
 }
 #cont5{
-	border:2px solid black;	
-	width:80%;
-}
-
-}
-#cont6{
-	background-image:url("/home/faith/Desktop/website/desanifinal/assets/backgrounds/c_image.jpg");
-	border:2px solid black;
-	width: 100%;
-	height:100%;
-	background-size: cover;
-	
-}
-#cont6 h8{
-		font-size: 30px;
-		color: #FFFFFF;
-		
-	}
-	
-	.footer{
-	border:2px solid black;
-background-color: #FFFFFF;
-text-align: center;
-
-}
-#cont7{
+	height: 250px;
 	text-align: center;
 }
+#cont5 h5{
+		/*border:2px solid black;*/
+text-align:center;	
+font-size: 20px;
+}
+
+#cont6{
+	/*border: 2px solid black;*/
+	height: 250px;
+}
+
+	#cont7{
+		/*border: 2px solid black;*/
+		background-image:url("/home/faith/Desktop/website/desanifinal/assets/backgrounds/c_image.jpg");
+		text-align: center;
+		background-size: cover;
+		height: 400px;
+	}
+
+#cont7 h6{
+		font-size: 20px;
+		color: white;
+	}
+	
+	/*#cont6 h6{
+		text-align: center;
+		font-size: 30px;
+		color: #FFFFFF;
+	}*/
+	#inforcontainer{
+		background: transparent;
+		position: center;
+	}
+	
+	
+	#cont8{
+	/*border:2px solid black;*/
+background-color: #FFFFFF;
+text-align: center;
+height: 200px;
+}
+
 
